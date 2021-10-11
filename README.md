@@ -13,6 +13,21 @@ Group Project for COMP3278 - Introduction to Database Management Systems.
     ```bash
     pipenv install
     ```
+## Qt Designer Usage
+### Generating a .UI file
+1. Run:
+    ```bash
+    pipenv shell
+    pyqt5-tools designer
+    ```
+2. Use Qt Designer
+
+### Generating code from a .ui file
+1. Run:
+    ```bash
+    pyuic5 -x uiFile.ui -o newOutputFile.py
+    ```
+
 ## Authors
 
 - [Ajayveer Singh](https://github.com/Quacktillius)
